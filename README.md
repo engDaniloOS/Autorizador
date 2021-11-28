@@ -25,7 +25,10 @@ Contudo o projeto de testes faz uso de algumas bibliotecas comuns, tais como:
 - NUnit;
 - NUnit3TestAdapter;
 
-# Executando o projeto
+# Executando o projeto com o docker
+Execute o comando: docker build -f .dockerfile -t tag .
+
+# Executando o projeto sem o docker
 ## Requisitos
 Para executar o projeto é necessário ter instalado no ambiente local as seguintes ferramentas:
 - Microsoft .NETCore SDK versão 3.1+;
