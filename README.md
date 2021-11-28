@@ -26,7 +26,8 @@ Contudo o projeto de testes faz uso de algumas bibliotecas comuns, tais como:
 - NUnit3TestAdapter;
 
 # Executando o projeto com o docker
-Execute o comando: docker build -f .dockerfile -t tag .
+Execute o comando para criar a imagem: docker build -f .dockerfile -t tag .
+E execute o comando para criar o container vinculado ao terminal do host: docker run -it ImageName
 
 # Executando o projeto sem o docker
 ## Requisitos
