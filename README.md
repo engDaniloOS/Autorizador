@@ -8,8 +8,8 @@ Sistema para autorização de transações de uma conta, que tem como principal obje
 - [x] Documentar
 - [x] Revisar documentação
 
-#Decisões técnicas
-##Desenho da solução
+# Decisões técnicas
+## Desenho da solução
 Para o desenho da solução foi utilizada uma simplificação do princípio de "Clean Architecture", de modo que:
 1 - Os contratos com a definição de negócio, e os seus modelos, estão no núcleo da aplicação sem dependência de outras camadas;
 2 - Acima de negócios encontramos a camada de serviço. Essa camada implementa todos os contratos definidos na camada inferior, e acessa os modelos de negócio necessários. Ela também define os contratos de toda infraestrutura necessária;
